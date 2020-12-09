@@ -18,7 +18,7 @@
     ]
   },
   "require": {
-    "php": "^7.3",
+    "php": "^7.2",
     "ext-pdo": "*",
     "coffeecode/datalayer": "1.1.*",
     "coffeecode/router": "1.0.*",

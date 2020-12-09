@@ -31,3 +31,8 @@ function url(string $uri = null): string
 
     return ROOT;
 }
+
+function message(string $message, string $type): string
+{
+    return "<div class=\"message {$type}\">{$message}</div>";
+}

@@ -14,7 +14,11 @@ $route->namespace("Source\App");
  */
 $route->group(null);
 $route->get("/", "Web:home");
-$route->get("/delete", "Web:delete");
+$route->get("/cliente", "Web:home");
+$route->post("/create", "Web:create");
+$route->post("/delete", "Web:delete");
+
+$route->get("/fatura", "Web:fatura");
 
 /**
  * ERROR

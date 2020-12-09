@@ -165,7 +165,7 @@ button:hover {
     color: #ffffff;
 }
 
-.users_user {
+.clients_client {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-column-gap: 20px;
@@ -177,16 +177,16 @@ button:hover {
     border-radius: 4px;
 }
 
-.users_user h3 {
+.clients_client h3 {
     font-size: 1em;
     color: #888888;
 }
 
-.users_user h3 span {
+.clients_client h3 span {
     font-weight: 300;
 }
 
-.users_user a {
+.clients_client a {
     font-size: 0.8em;
     font-weight: bold;
     color: var(--color-red);
@@ -200,7 +200,7 @@ button:hover {
     border-radius: 4px;
 }
 
-.users_user a:hover {
+.clients_client a:hover {
     background: var(--color-red);
     color: #ffffff;
 }
@@ -219,4 +219,7 @@ button:hover {
 
 label{
     display: block !important;
+}
+.menu{
+    display: flex;
 }
