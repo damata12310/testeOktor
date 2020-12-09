@@ -125,6 +125,34 @@ body {
     color: var(--color-green);
 }
 
+.formEdit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+
+.formEdit > * {
+    width: 100%;
+}
+
+.formEdit input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.formEdit select {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
 .form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -145,6 +173,42 @@ body {
     font-size: 1em;
 }
 
+.form select {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+/**/
+.formCreate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+
+.formCreate > * {
+    width: 100%;
+}
+
+.formCreate input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.formCreate select {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
 button {
     display: block;
     width: 100%;
@@ -158,6 +222,7 @@ button {
     transition-duration: 0.3s;
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-bottom: 10px;
 }
 
 button:hover {
@@ -166,7 +231,7 @@ button:hover {
 }
 
 .clients_client {
-    display: grid;
+    display: flex;
     grid-template-columns: 3fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -189,19 +254,17 @@ button:hover {
 .clients_client a {
     font-size: 0.8em;
     font-weight: bold;
-    color: var(--color-red);
     text-align: center;
     text-decoration: none;
     transition-duration: 0.3s;
     display: block;
     width: 100%;
     padding: 5px 0;
-    border: 2px solid var(--color-red);
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .clients_client a:hover {
-    background: var(--color-red);
     color: #ffffff;
 }
 
@@ -222,4 +285,44 @@ label{
 }
 .menu{
     display: flex;
+}
+
+
+.faturas_fatura {
+    display: flex;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #eeeeee;
+    border-radius: 4px;
+}
+
+.faturas_fatura h3 {
+    font-size: 1em;
+    color: #888888;
+    width: 80%;
+}
+
+.faturas_fatura h3 span {
+    font-weight: 300;
+}
+
+.faturas_fatura a {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.faturas_fatura a:hover {
+    color: #ffffff;
 }

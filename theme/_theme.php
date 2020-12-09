@@ -25,7 +25,7 @@
             <img src="<?= url("")."/theme/assets/img/logo-oktor-175x52-new.png" ?>"  class="d-inline-block align-top" alt="">
         </a>
         <div class="menu">
-            <a href="<?= url("/"); ?>" class="nav-link border rounded mr-2">Clientes</a>
+            <a href="<?= url(""); ?>" class="nav-link border rounded mr-2">Clientes</a>
             <a href="<?= url("fatura"); ?>" class="nav-link border rounded ml-2">Faturas</a>
         </div>
     </nav>
