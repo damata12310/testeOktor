@@ -1,0 +1,27 @@
+{
+  "name": "damata12310/oktor",
+  "description": "TESTE PARTE DO PROCESSO SELETIVO NA EMPRESA OKTOR TECNOLOGIA",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anderson da Mata",
+      "email": "anderson.daamata@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/router": "1.0.*",
+    "league/plates": "v4.0.0-alpha"
+  }
+}
